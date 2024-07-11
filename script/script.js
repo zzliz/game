@@ -1,8 +1,9 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
-    const startButton = document.getElementById('startButton');
+    const playButton = document.getElementById('playButton');
 
-    startButton.addEventListener('click', () => {
-        window.location.href = 'https://github.com/username/repository/blob/main/src/index.html'; // Link to your main code or another page
+    playButton.addEventListener('click', () => {
+        alert('Play button clicked!');
+        // You can add functionality here, e.g., play a video, navigate to another page, etc.
     });
-})
+});

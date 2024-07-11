@@ -1,33 +1,25 @@
-/* styles.css */
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
     height: 100vh;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
     margin: 0;
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
 }
 
 .container {
     text-align: center;
 }
-
-h1 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-#startButton {
+ 
+#playButton {
     padding: 15px 30px;
     font-size: 18px;
     color: #fff;
     background-color: #0078d4;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-
-#startButton:hover {
+#playButton:hover {
     background-color: #005a9e;
 }

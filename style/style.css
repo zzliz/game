@@ -1,15 +1,69 @@
-.button {
+
+#play_button {
+    
     background-color: purple;
     border: none;
-    color: #fff;
-    padding: center;
+    color: white;
+    padding: 16px;
+    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20x;
+    display: flex;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+   border: 2px solid black;
+   
+
+   font-style: italic;
+   color:rgb(48, 6, 56);
+  
+  
+   
+}
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 
+  body{
+margin: 0px;
+
+    background-image: linear-gradient(0deg, #330774 0%, #8b68c7 35%, #e9df71 100%);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background: cover;
+
+}
+ .container {
+    height: 200px;
+    position: relative;
+    border: 3xp solid blue;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%);
+} 
 
 
 
+
+
+
+
+/* #play_button {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: gray; 
+color:blue; 
+border-radius; 50xp;
+} */
 

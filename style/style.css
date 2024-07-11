@@ -1,25 +1,15 @@
-body {
-    display: flex;
-    justify-self: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #1e1e1e;
-    font-family: Arial, sans-serif;
+.button {
+    background-color: purple;
+    border: none;
+    color: #fff;
+    padding: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20x;
 }
 
-.container {
-    text-align: center;
-}
- 
-#playButton {
-    padding: 15px 30px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #0078d4;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-#playButton:hover {
-    background-color: #005a9e;
-}
+
+
+
+
+
